@@ -1,0 +1,16 @@
+Basic cases:
+  - Login
+  - CRUD for all entities
+  - Basic navigation (Sidebar and navigation between CRUD pages)
+  - Bulk delete feature
+  - Filtering on table pages
+
+Aditionally:
+  - Negative cases:
+    - Login page with wrong credentials
+    - Fields validation during entities creation (empty required fields, trying to add Publisher with same email)
+    - Delete Publisher whith other entities referencing it
+  - Alternative ways to do actions:
+    - Navigating via table row dropdown and by clicking on the row
+    - Delete from details page and from table dropdown
+    - Navigating to Publisher from referenced entitie.
